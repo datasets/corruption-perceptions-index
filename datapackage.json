@@ -1,0 +1,64 @@
+[
+    {
+        "name": [
+            "corruption-perceptions-index"
+        ],
+        "title": [
+            "Corruption Perceptions Index (CPI)"
+        ],
+        "description": [
+            "Corruption Perceptions Index (CPI), as reported by Transparency International, since 2001."
+        ],
+        "license": {
+            "type": [
+                "odc-pddl"
+            ],
+            "url": [
+                "http://opendatacommons.org/licenses/pddl/"
+            ]
+        },
+        "version": [
+            "1.0-beta.10"
+        ],
+        "last_updated": [
+            "2015-02-21"
+        ],
+        "sources": {
+            "name": [
+                "World Bank and OECD"
+            ],
+            "web": [
+                "http://www.transparency.org/cpi2014/"
+            ]
+        },
+        "keywords": [
+            [
+                "CPI"
+            ],
+            [
+                "Transparency International"
+            ],
+            [
+                "Corruption Perceptions Index"
+            ]
+        ]
+    },
+    {
+        "resources": [
+            {
+                "path": "data/corruption-perceptions-index_data.csv"
+            }
+        ],
+        "schema": [
+            {
+                "name": "Country/Territory",
+                "type": "string"
+            },
+            {
+                "name": "CPI 2014",
+                "type": "string"
+            }
+        ]
+    }
+]
+
