@@ -1,134 +1,134 @@
-Country/Territory,CPI
-Finland,9.7
-Iceland,9.6
-Denmark,9.5
-New Zealand,9.5
-Singapore,9.4
-Sweden,9.3
-Netherlands,8.9
-Australia,8.8
-Norway,8.8
-Switzerland,8.8
-Canada,8.7
-Luxembourg,8.7
-United Kingdom,8.7
-Austria,8.0
-Hong Kong,8.0
-Germany,7.7
-Belgium,7.6
-Ireland,7.5
-USA,7.5
-Chile,7.4
-Israel,7.0
-Japan,7.0
-France,6.9
-Spain,6.9
-Portugal,6.6
-Oman,6.3
-Bahrain,6.1
-Cyprus,6.1
-Slovenia,5.9
-Botswana,5.7
-Taiwan,5.7
-Qatar,5.6
-Estonia,5.5
-Uruguay,5.5
-Italy,5.3
-Kuwait,5.3
-Malaysia,5.2
-United Arab Emirates,5.2
-Tunisia,4.9
-Hungary,4.8
-Lithuania,4.7
-Namibia,4.7
-Cuba,4.6
-Jordan,4.6
-Trinidad and Tobago,4.6
-Belize,4.5
-Saudi Arabia,4.5
-Mauritius,4.4
-South Africa,4.4
-Costa Rica,4.3
-Greece,4.3
-South Korea,4.3
-Belarus,4.2
-Brazil,3.9
-Bulgaria,3.9
-Czech Republic,3.9
-Jamaica,3.8
-Latvia,3.8
-Colombia,3.7
-Croatia,3.7
-El Salvador,3.7
-Peru,3.7
-Slovakia,3.7
-Mexico,3.6
-Poland,3.6
-China,3.4
-Panama,3.4
-Sri Lanka,3.4
-Syria,3.4
-Bosnia & Herzegovina,3.3
-Dominican Republic,3.3
-Egypt,3.3
-Ghana,3.3
-Morocco,3.3
-Thailand,3.3
-Senegal,3.2
-Turkey,3.1
-Armenia,3.0
-Iran,3.0
-Lebanon,3.0
-Mali,3.0
-Palestine,3.0
-India,2.8
-Malawi,2.8
-Romania,2.8
-Mozambique,2.7
-Russia,2.7
-Algeria,2.6
-Madagascar,2.6
-Nicaragua,2.6
-Yemen,2.6
-Albania,2.5
-Argentina,2.5
-Ethiopia,2.5
-Gambia,2.5
-Pakistan,2.5
-Philippines,2.5
-Tanzania,2.5
-Zambia,2.5
-Guatemala,2.4
-Kazakhstan,2.4
-Moldova,2.4
-Uzbekistan,2.4
-Venezuela,2.4
-Vietnam,2.4
-Bolivia,2.3
-Honduras,2.3
-Macedonia,2.3
-Serbia & Montenegro,2.3
-Sudan,2.3
-Ukraine,2.3
-Zimbabwe,2.3
-Congo, Republic of the,2.2
-Ecuador,2.2
-Iraq,2.2
-Sierra Leone,2.2
-Uganda,2.2
-Cote d'Ivoire,2.1
-Kyrgyzstan,2.1
-Libya,2.1
-Papua New Guinea,2.1
-Indonesia,1.9
-Kenya,1.9
-Angola,1.8
-Azerbaijan,1.8
-Cameroon,1.8
-Georgia,1.8
-Tajikistan,1.8
-Myanmar,1.6
-Paraguay,1.6
-Haiti,1.5
-Nigeria,1.4
-Bangladesh,1.3
+"Country/Territory","CPI"
+"Finland",9.7
+"Iceland",9.6
+"Denmark",9.5
+"New Zealand",9.5
+"Singapore",9.4
+"Sweden",9.3
+"Netherlands",8.9
+"Australia",8.8
+"Norway",8.8
+"Switzerland",8.8
+"Canada",8.7
+"Luxembourg",8.7
+"United Kingdom",8.7
+"Austria",8.0
+"Hong Kong",8.0
+"Germany",7.7
+"Belgium",7.6
+"Ireland",7.5
+"USA",7.5
+"Chile",7.4
+"Israel",7.0
+"Japan",7.0
+"France",6.9
+"Spain",6.9
+"Portugal",6.6
+"Oman",6.3
+"Bahrain",6.1
+"Cyprus",6.1
+"Slovenia",5.9
+"Botswana",5.7
+"Taiwan",5.7
+"Qatar",5.6
+"Estonia",5.5
+"Uruguay",5.5
+"Italy",5.3
+"Kuwait",5.3
+"Malaysia",5.2
+"United Arab Emirates",5.2
+"Tunisia",4.9
+"Hungary",4.8
+"Lithuania",4.7
+"Namibia",4.7
+"Cuba",4.6
+"Jordan",4.6
+"Trinidad and Tobago",4.6
+"Belize",4.5
+"Saudi Arabia",4.5
+"Mauritius",4.4
+"South Africa",4.4
+"Costa Rica",4.3
+"Greece",4.3
+"South Korea",4.3
+"Belarus",4.2
+"Brazil",3.9
+"Bulgaria",3.9
+"Czech Republic",3.9
+"Jamaica",3.8
+"Latvia",3.8
+"Colombia",3.7
+"Croatia",3.7
+"El Salvador",3.7
+"Peru",3.7
+"Slovakia",3.7
+"Mexico",3.6
+"Poland",3.6
+"China",3.4
+"Panama",3.4
+"Sri Lanka",3.4
+"Syria",3.4
+"Bosnia & Herzegovina",3.3
+"Dominican Republic",3.3
+"Egypt",3.3
+"Ghana",3.3
+"Morocco",3.3
+"Thailand",3.3
+"Senegal",3.2
+"Turkey",3.1
+"Armenia",3.0
+"Iran",3.0
+"Lebanon",3.0
+"Mali",3.0
+"Palestine",3.0
+"India",2.8
+"Malawi",2.8
+"Romania",2.8
+"Mozambique",2.7
+"Russia",2.7
+"Algeria",2.6
+"Madagascar",2.6
+"Nicaragua",2.6
+"Yemen",2.6
+"Albania",2.5
+"Argentina",2.5
+"Ethiopia",2.5
+"Gambia",2.5
+"Pakistan",2.5
+"Philippines",2.5
+"Tanzania",2.5
+"Zambia",2.5
+"Guatemala",2.4
+"Kazakhstan",2.4
+"Moldova",2.4
+"Uzbekistan",2.4
+"Venezuela",2.4
+"Vietnam",2.4
+"Bolivia",2.3
+"Honduras",2.3
+"Macedonia",2.3
+"Serbia & Montenegro",2.3
+"Sudan",2.3
+"Ukraine",2.3
+"Zimbabwe",2.3
+"Congo Republic of the",2.2
+"Ecuador",2.2
+"Iraq",2.2
+"Sierra Leone",2.2
+"Uganda",2.2
+"Cote d'Ivoire",2.1
+"Kyrgyzstan",2.1
+"Libya",2.1
+"Papua New Guinea",2.1
+"Indonesia",1.9
+"Kenya",1.9
+"Angola",1.8
+"Azerbaijan",1.8
+"Cameroon",1.8
+"Georgia",1.8
+"Tajikistan",1.8
+"Myanmar",1.6
+"Paraguay",1.6
+"Haiti",1.5
+"Nigeria",1.4
+"Bangladesh",1.3

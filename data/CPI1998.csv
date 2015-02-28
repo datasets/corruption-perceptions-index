@@ -1,86 +1,86 @@
-Country/Territory,CPI
-Denmark,10.0
-Finland,9.6
-Sweden,9.5
-New Zealand,9.4
-Iceland,9.3
-Canada,9.2
-Singapore,9.1
-Netherlands,9.0
-Norway,9.0
-Switzerland,8.9
-Australia,8.7
-Luxembourg,8.7
-United Kingdom,8.7
-Ireland,8.2
-Germany,7.9
-Hong Kong,7.8
-Austria,7.5
-United States,7.5
-Israel,7.1
-Chile,6.8
-France,6.7
-Portugal,6.5
-Botswana,6.1
-Spain,6.1
-Japan,5.8
-Estonia,5.7
-Costa Rica,5.6
-Belgium,5.4
-Malaysia,5.3
-Namibia,5.3
-Taiwan,5.3
-South Africa,5.2
-Hungary,5.0
-Mauritius,5.0
-Tunisia,5.0
-Greece,4.9
-Czech Republic,4.8
-Jordan,4.7
-Italy,4.6
-Poland,4.6
-Peru,4.5
-Uruguay,4.3
-South Korea,4.2
-Zimbabwe,4.2
-Malawi,4.1
-Brazil,4.0
-Belarus,3.9
-Slovak Republic,3.9
-Jamaica,3.8
-Morocco,3.7
-El Salvador,3.6
-China,3.5
-Zambia,3.5
-Turkey,3.4
-Ghana,3.3
-Mexico,3.3
-Philippines,3.3
-Senegal,3.3
-Ivory Coast,3.1
-Guatemala,3.1
-Argentina,3.0
-Nicaragua,3.0
-Romania,3.0
-Thailand,3.0
-Yugoslavia,3.0
-Bulgaria,2.9
-Egypt,2.9
-India,2.9
-Bolivia,2.8
-Ukraine,2.8
-Latvia,2.7
-Pakistan,2.7
-Uganda,2.6
-Kenya,2.5
-Vietnam,2.5
-Russia,2.4
-Ecuador,2.3
-Venezuela,2.3
-Colombia,2.2
-Indonesia,2.0
-Nigeria,1.9
-Tanzania,1.9
-Honduras,1.7
-Paraguay,1.5
-Cameroon,1.4
+"Country/Territory","CPI"
+"Denmark",10.0
+"Finland",9.6
+"Sweden",9.5
+"New Zealand",9.4
+"Iceland",9.3
+"Canada",9.2
+"Singapore",9.1
+"Netherlands",9.0
+"Norway",9.0
+"Switzerland",8.9
+"Australia",8.7
+"Luxembourg",8.7
+"United Kingdom",8.7
+"Ireland",8.2
+"Germany",7.9
+"Hong Kong",7.8
+"Austria",7.5
+"United States",7.5
+"Israel",7.1
+"Chile",6.8
+"France",6.7
+"Portugal",6.5
+"Botswana",6.1
+"Spain",6.1
+"Japan",5.8
+"Estonia",5.7
+"Costa Rica",5.6
+"Belgium",5.4
+"Malaysia",5.3
+"Namibia",5.3
+"Taiwan",5.3
+"South Africa",5.2
+"Hungary",5.0
+"Mauritius",5.0
+"Tunisia",5.0
+"Greece",4.9
+"Czech Republic",4.8
+"Jordan",4.7
+"Italy",4.6
+"Poland",4.6
+"Peru",4.5
+"Uruguay",4.3
+"South Korea",4.2
+"Zimbabwe",4.2
+"Malawi",4.1
+"Brazil",4.0
+"Belarus",3.9
+"Slovak Republic",3.9
+"Jamaica",3.8
+"Morocco",3.7
+"El Salvador",3.6
+"China",3.5
+"Zambia",3.5
+"Turkey",3.4
+"Ghana",3.3
+"Mexico",3.3
+"Philippines",3.3
+"Senegal",3.3
+"Ivory Coast",3.1
+"Guatemala",3.1
+"Argentina",3.0
+"Nicaragua",3.0
+"Romania",3.0
+"Thailand",3.0
+"Yugoslavia",3.0
+"Bulgaria",2.9
+"Egypt",2.9
+"India",2.9
+"Bolivia",2.8
+"Ukraine",2.8
+"Latvia",2.7
+"Pakistan",2.7
+"Uganda",2.6
+"Kenya",2.5
+"Vietnam",2.5
+"Russia",2.4
+"Ecuador",2.3
+"Venezuela",2.3
+"Colombia",2.2
+"Indonesia",2.0
+"Nigeria",1.9
+"Tanzania",1.9
+"Honduras",1.7
+"Paraguay",1.5
+"Cameroon",1.4
