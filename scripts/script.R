@@ -1,6 +1,7 @@
 require("xlsx")
 require("rvest")
 
+#All CPI data files will be stored in a 'data' directory
 dir.create("data")
 
 #There is no consistent storage of files containing CPI data
@@ -13,7 +14,7 @@ url2013<-"http://files.transparency.org/content/download/702/3015/file/CPI2013_D
 url2012<-"http://files.transparency.org/content/download/533/2213/file/2012_CPI_DataPackage.zip"
 url2011<-"http://files.transparency.org/content/download/313/1264/file/CPI2011_DataPackage.zip"
 url2010<-"http://files.transparency.org/content/download/426/1752/CPI+2010+results_pls_standardized_data.xls"
-#Before year 2009, HTML pages pages to be scraped
+#Before year 2009, HTML pages needs to be scraped
 #The base url is http://www.transparency.org/research/cpi/cpi_XXXX
 #where XXXX stands for the year (between 1998 and 2009)
 
