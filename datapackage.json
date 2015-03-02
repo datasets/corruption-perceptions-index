@@ -5,12 +5,8 @@
   "version": "0.1.0",
   "license": "PDDL-1.0",
 "sources": [{
-            "name": [
-                "Transparency International"
-            ],
-            "web": [
-                "http://www.transparency.org/research/cpi/overview"
-            ]
+            "name": "Transparency International",
+            "web":  "http://www.transparency.org/research/cpi/overview"
         }],
   "resources": [
     {
