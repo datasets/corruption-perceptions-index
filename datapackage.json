@@ -4,10 +4,14 @@
   "homepage": "http://www.transparency.org/research/cpi/overview",
   "version": "0.1.0",
   "license": "PDDL-1.0",
+"description": [
+"Corruption Perceptions Index (CPI), as reported by Transparency International."
+],
 "sources": [{
             "name": "Transparency International",
             "web":  "http://www.transparency.org/research/cpi/overview"
         }],
+
   "resources": [
     {
       "name": "cpi1998",
