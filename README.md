@@ -23,7 +23,7 @@ This package includes an R script (scripts/script.R) to download files from the 
 
 This Data Package is licensed by its maintainers under the [Public Domain Dedication and License (PDDL)](http://opendatacommons.org/licenses/pddl/1.0/).
 
-Note that underlying rights, terms and conditions in the data from the source are unclear and may exists.
+Note that underlying rights, terms and conditions in the data from the source are unclear and may exist.
 
 
 
