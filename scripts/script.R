@@ -26,7 +26,7 @@ tryCatch({
   all_data<-read.xlsx("CPI2014_DataBundle/CPI 2014_Regional with data source scores_final.xlsx", sheetIndex = 1,stringsAsFactors=F)
   subset_data2014<-all_data[-c(1,2),c(2,6)]
   subset_data2014[,1]<-sub(",","",subset_data2014[,1])
-  colnames(subset_data2014)<-c("Country/Territory","CPI")
+  colnames(subset_data2014)<-c("Jurisdiction","CPI")
   write.csv(subset_data2014,"data/CPI2014.csv",quote=F,row.names=F)
   message("CPI data 2014 succesfully downloaded and saved in data/CPI2014.csv")
 }, warning = function(cond) {
@@ -44,7 +44,7 @@ tryCatch({
   all_data<-read.xlsx("CPI2013_DataBundle/CPI2013_GLOBAL_WithDataSourceScores.xls", sheetIndex = 1, stringsAsFactors=F)
   subset_data2013<-all_data[-1,c(2,7)]
   subset_data2013[,1]<-sub(",","",subset_data2013[,1])
-  colnames(subset_data2013)<-c("Country/Territory","CPI")
+  colnames(subset_data2013)<-c("Jurisdiction","CPI")
   write.csv(subset_data2013,"data/CPI2013.csv",quote=F,row.names=F)
   message("CPI data 2013 succesfully downloaded and saved in data/CPI2013.csv")
 }, warning = function(cond) {
@@ -62,7 +62,7 @@ tryCatch({
   all_data<-read.xlsx("2012_CPI_DataPackage/CPI2012_Results.xls", sheetIndex = 1, stringsAsFactors=F)
   subset_data2012<-all_data[-1,c(2,4)]
   subset_data2012[,1]<-sub(",","",subset_data2012[,1])
-  colnames(subset_data2012)<-c("Country/Territory","CPI")
+  colnames(subset_data2012)<-c("Jurisdiction","CPI")
   write.csv(subset_data2012,"data/CPI2012.csv",quote=F,row.names=F)
   message("CPI data 2012 succesfully downloaded and saved in data/CPI2012.csv")
 }, warning = function(cond) {
@@ -81,7 +81,7 @@ tryCatch({
   all_data<-read.xlsx2("CPI2011_DataPackage/CPI2011_Results.xls", sheetName = "Global", stringsAsFactors=F)
   subset_data2011<-all_data[-1,c(2,3)]
   subset_data2011[,1]<-sub(",","",subset_data2011[,1])
-  colnames(subset_data2011)<-c("Country/Territory","CPI")
+  colnames(subset_data2011)<-c("Jurisdiction","CPI")
   write.csv(subset_data2011,"data/CPI2011.csv",quote=F,row.names=F)
   message("CPI data 2011 succesfully downloaded and saved in data/CPI2011.csv")
 }, warning = function(cond) {
@@ -97,7 +97,7 @@ tryCatch({
     download.file(url2010,"CPI2010.xls")
   all_data<-read.xlsx("CPI2010.xls", sheetIndex = 1, stringsAsFactors=F)
   subset_data2010<-all_data[-c(1:3),c(2,3)]
-  colnames(subset_data2010)<-c("Country/Territory","CPI")
+  colnames(subset_data2010)<-c("Jurisdiction","CPI")
   subset_data2010[,1]<-sub(",","",subset_data2010[,1])
   write.csv(subset_data2010,"data/CPI2010.csv",quote=F,row.names=F)
   message("CPI data 2010 succesfully downloaded and saved in data/CPI2010.csv")
@@ -118,12 +118,14 @@ getCPITableFromWebPage<-function(url) {
   col2<-html_text(html_nodes(webpage, "td:nth-child(2)"))
   col3<-html_text(html_nodes(webpage, "td:nth-child(3)"))
   #If what we get in second column is not numeric, columns must be shifted
-  countries<-col1[is.na(as.numeric(col1))]
-  to_shift<-which(!is.na(as.numeric(col2)))
+  countries<-col1[which(regexpr("[0-9]+",col1)== -1)]
+  to_shift<-which(regexpr("[0-9\\.]+",col2)== 1)
   col3[to_shift]<-col2[to_shift]
   col2[to_shift]<-countries
-  subset_data<-cbind(col2,col3)
-  colnames(subset_data)<-c("Country/Territory","CPI")
+  #Some decimals are represented as ',' instead of '.'
+  col3<-sub(",",".",col3)
+  subset_data<-cbind(col2,as.numeric(col3))
+  colnames(subset_data)<-c("Jurisdiction","CPI")
   subset_data
 }
 
@@ -136,3 +138,40 @@ for (year in 1998:2009) {
   write.csv(data,filename,quote=c(1),row.names=F)
   message(paste0("CPI data ",year," succesfully downloaded and saved in data/CPI",year,".csv"))
 }
+
+##############################
+#Merge all tables to have the CPI for each country (rows) over the years 1998-2014 (columns)
+
+listFiles<-list()
+for (year in 1998:2014) {
+  data<-read.csv(paste0("data/CPI",year,".csv"),stringsAsFactor=F,header=T)
+  listFiles<-c(listFiles,list(data))
+}
+
+countries<-c()
+for (i in 1:length(listFiles)) countries<-c(countries,listFiles[[i]][,1])
+countries<-sort(unique(countries))
+
+CPI<-as.data.frame(countries)
+
+#Scan each, and get the list of countries for that file
+#Then take all unique names given to countries ver the years 1998-2014, and match CPI score accordingly
+for (i in 1:length(listFiles)) {
+  countries.i<-listFiles[[i]][,1]
+  tt<-which(countries.i==7)
+  if (length(tt)>0) print(i)
+  match.countries<-match(countries.i,CPI[,1])
+  CPI<-cbind(CPI,rep(NA,nrow(CPI)))
+  CPI[match.countries,i+1]<-round(listFiles[[i]][,2],digits=2)
+}
+
+#Set column names and save
+colnames(CPI)<-c("Jurisdiction",1998:2014)
+write.csv(CPI,file="data/allCPI.csv",quote=c(1),row.names=F)
+
+
+
+
+
+
+
