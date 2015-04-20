@@ -1,4 +1,4 @@
-"Country/Territory","CPI"
+"Jurisdiction","CPI"
 "Iceland",9.7
 "Finland",9.6
 "New Zealand",9.6
@@ -21,7 +21,7 @@
 "Ireland",7.4
 "Chile",7.3
 "Japan",7.3
-"Spain",7.0
+"Spain",7
 "Barbados",6.9
 "Malta",6.6
 "Portugal",6.5
@@ -38,9 +38,9 @@
 "Cyprus",5.7
 "Jordan",5.7
 "Malaysia",5.1
-"Hungary",5.0
-"Italy",5.0
-"South Korea",5.0
+"Hungary",5
+"Italy",5
+"South Korea",5
 "Tunisia",4.9
 "Lithuania",4.8
 "Kuwait",4.7
@@ -53,108 +53,108 @@
 "El Salvador",4.2
 "Latvia",4.2
 "Mauritius",4.2
-"Bulgaria",4.0
-"Colombia",4.0
-"Fiji",4.0
-"Seychelles",4.0
+"Bulgaria",4
+"Colombia",4
+"Fiji",4
+"Seychelles",4
 "Cuba",3.8
-"38",3.5 - 4.1
-"38",3.3 - 4.5
+"Thailand",3.8
+"Trinidad and Tobago",3.8
 "Belize",3.7
-"37",3.5 - 3.9
+"Brazil",3.7
 "Jamaica",3.6
 "Ghana",3.5
-"Thailand",3.5
-"Trinidad and Tobago",3.5
-"Brazil",3.5
 "Mexico",3.5
+"Panama",3.5
+"Peru",3.5
+"Turkey",3.5
 "Burkina Faso",3.4
-"Panama",3.4
-"Peru",3.4
-"Turkey",3.4
 "Croatia",3.4
 "Egypt",3.4
 "Lesotho",3.4
+"Poland",3.4
+"Saudi Arabia",3.4
+"Syria",3.4
 "Laos",3.3
 "China",3.2
-"Poland",3.2
-"Saudi Arabia",3.2
-"Syria",3.2
 "Morocco",3.2
+"Senegal",3.2
+"Sri Lanka",3.2
+"Suriname",3.2
 "Lebanon",3.1
-"Senegal",3.1
-"Dominican Republic",3.0
-"Sri Lanka",3.0
-"Suriname",3.0
+"Rwanda",3.1
+"Dominican Republic",3
+"Mongolia",3
+"Romania",3
 "Armenia",2.9
-"Rwanda",2.9
-"Mongolia",2.9
-"Romania",2.9
 "Benin",2.9
 "Bosnia and Herzegovina",2.9
 "Gabon",2.9
 "India",2.9
 "Iran",2.9
+"Mali",2.9
+"Moldova",2.9
+"Tanzania",2.9
 "Algeria",2.8
-"Mali",2.8
-"Moldova",2.8
-"Tanzania",2.8
 "Argentina",2.8
 "Madagascar",2.8
+"Malawi",2.8
+"Mozambique",2.8
+"Serbia and Montenegro",2.8
 "Gambia",2.7
-"Malawi",2.7
-"Mozambique",2.7
-"Serbia and Montenegro",2.7
+"Macedonia",2.7
+"Swaziland",2.7
+"Yemen",2.7
 "Belarus",2.6
-"Macedonia",2.6
-"Swaziland",2.6
-"Yemen",2.6
 "Eritrea",2.6
 "Honduras",2.6
 "Kazakhstan",2.6
 "Nicaragua",2.6
 "Palestine",2.6
 "Ukraine",2.6
+"Vietnam",2.6
+"Zambia",2.6
+"Zimbabwe",2.6
 "Afghanistan",2.5
-"Vietnam",2.5
-"Zambia",2.5
-"Zimbabwe",2.5
 "Bolivia",2.5
 "Ecuador",2.5
 "Guatemala",2.5
 "Guyana",2.5
 "Libya",2.5
+"Nepal",2.5
+"Philippines",2.5
+"Uganda",2.5
 "Albania",2.4
-"Nepal",2.4
-"Philippines",2.4
-"Uganda",2.4
+"Niger",2.4
+"Russia",2.4
+"Sierra Leone",2.4
 "Burundi",2.3
-"Niger",2.3
-"Russia",2.3
-"Sierra Leone",2.3
 "Cambodia",2.3
 "Congo Republic of",2.3
 "Georgia",2.3
+"Kyrgyzstan",2.3
+"Papua New Guinea",2.3
+"Venezuela",2.3
 "Azerbaijan",2.2
-"Kyrgyzstan",2.2
-"Papua New Guinea",2.2
-"Venezuela",2.2
 "Cameroon",2.2
 "Ethiopia",2.2
 "Indonesia",2.2
+"Iraq",2.2
+"Liberia",2.2
+"Uzbekistan",2.2
 "Congo Democratic Republic",2.1
-"Iraq",2.1
-"Liberia",2.1
-"Uzbekistan",2.1
 "Kenya",2.1
 "Pakistan",2.1
 "Paraguay",2.1
-"Angola",2.0
+"Somalia",2.1
+"Sudan",2.1
+"Tajikistan",2.1
+"Angola",2
 "Cote d'Ivoire",1.9
-"Somalia",1.9
-"Sudan",1.9
+"Equatorial Guinea",1.9
+"Nigeria",1.9
 "Haiti",1.8
-"Tajikistan",1.8
-"Equatorial Guinea",1.8
+"Myanmar",1.8
+"Turkmenistan",1.8
 "Bangladesh",1.7
-"Nigeria",1.7
+"Chad",1.7

@@ -1,9 +1,9 @@
-"Country/Territory","CPI"
+"Jurisdiction","CPI"
 "New Zealand",9.4
 "Denmark",9.3
 "Singapore",9.2
 "Sweden",9.2
-"Switzerland",9.0
+"Switzerland",9
 "Finland",8.9
 "Netherlands",8.9
 "Australia",8.7
@@ -12,16 +12,16 @@
 "Norway",8.6
 "Hong Kong",8.2
 "Luxembourg",8.2
-"Germany",8.0
-"Ireland",8.0
+"Germany",8
+"Ireland",8
 "Austria",7.9
 "Japan",7.7
 "United Kingdom",7.7
 "United States",7.5
 "Barbados",7.4
 "Belgium",7.1
-"Qatar",7.0
-"Saint Lucia",7.0
+"Qatar",7
+"Saint Lucia",7
 "France",6.9
 "Chile",6.7
 "Uruguay",6.7
@@ -47,9 +47,9 @@
 "Bahrain",5.1
 "Cape Verde",5.1
 "Hungary",5.1
-"Bhutan",5.0
-"Jordan",5.0
-"Poland",5.0
+"Bhutan",5
+"Jordan",5
+"Poland",5
 "Czech Republic",4.9
 "Lithuania",4.9
 "Seychelles",4.8
@@ -97,13 +97,13 @@
 "Vanuatu",3.2
 "Liberia",3.1
 "Sri Lanka",3.1
-"Bosnia and Herzegovina",3.0
-"Dominican Republic",3.0
-"Jamaica",3.0
-"Madagascar",3.0
-"Senegal",3.0
-"Tonga",3.0
-"Zambia",3.0
+"Bosnia and Herzegovina",3
+"Dominican Republic",3
+"Jamaica",3
+"Madagascar",3
+"Senegal",3
+"Tonga",3
+"Zambia",3
 "Argentina",2.9
 "Benin",2.9
 "Gabon",2.9
@@ -156,10 +156,10 @@
 "Papua New Guinea",2.1
 "Paraguay",2.1
 "Yemen",2.1
-"Cambodia",2.0
-"Central African Republic",2.0
-"Laos",2.0
-"Tajikistan",2.0
+"Cambodia",2
+"Central African Republic",2
+"Laos",2
+"Tajikistan",2
 "Angola",1.9
 "Congo Brazzaville",1.9
 "Democratic Republic of Congo",1.9

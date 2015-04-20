@@ -1,4 +1,4 @@
-"Country/Territory","CPI"
+"Jurisdiction","CPI"
 "Finland",9.7
 "Iceland",9.6
 "Denmark",9.5
@@ -12,15 +12,15 @@
 "Canada",8.7
 "Luxembourg",8.7
 "United Kingdom",8.7
-"Austria",8.0
-"Hong Kong",8.0
+"Austria",8
+"Hong Kong",8
 "Germany",7.7
 "Belgium",7.6
 "Ireland",7.5
 "USA",7.5
 "Chile",7.4
-"Israel",7.0
-"Japan",7.0
+"Israel",7
+"Japan",7
 "France",6.9
 "Spain",6.9
 "Portugal",6.6
@@ -76,11 +76,11 @@
 "Thailand",3.3
 "Senegal",3.2
 "Turkey",3.1
-"Armenia",3.0
-"Iran",3.0
-"Lebanon",3.0
-"Mali",3.0
-"Palestine",3.0
+"Armenia",3
+"Iran",3
+"Lebanon",3
+"Mali",3
+"Palestine",3
 "India",2.8
 "Malawi",2.8
 "Romania",2.8

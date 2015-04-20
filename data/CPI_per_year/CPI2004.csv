@@ -1,4 +1,4 @@
-"Country/Territory","CPI"
+"Jurisdiction","CPI"
 "Finland",9.7
 "New Zealand",9.6
 "Denmark",9.5
@@ -14,7 +14,7 @@
 "Austria",8.4
 "Luxembourg",8.4
 "Germany",8.2
-"Hong Kong",8.0
+"Hong Kong",8
 "Belgium",7.5
 "Ireland",7.5
 "USA",7.5
@@ -29,16 +29,16 @@
 "Uruguay",6.2
 "Oman",6.1
 "United Arab Emirates",6.1
-"Botswana",6.0
-"Estonia",6.0
-"Slovenia",6.0
+"Botswana",6
+"Estonia",6
+"Slovenia",6
 "Bahrain",5.8
 "Taiwan",5.6
 "Cyprus",5.4
 "Jordan",5.3
 "Qatar",5.2
-"Malaysia",5.0
-"Tunisia",5.0
+"Malaysia",5
+"Tunisia",5
 "Costa Rica",4.9
 "Hungary",4.8
 "Italy",4.8
@@ -55,8 +55,8 @@
 "Bulgaria",4.1
 "Mauritius",4.1
 "Namibia",4.1
-"Latvia",4.0
-"Slovakia",4.0
+"Latvia",4
+"Slovakia",4
 "Brazil",3.9
 "Belize",3.8
 "Colombia",3.8
@@ -83,8 +83,8 @@
 "Armenia",3.1
 "Bosnia and Herzegovina",3.1
 "Madagascar",3.1
-"Mongolia",3.0
-"Senegal",3.0
+"Mongolia",3
+"Senegal",3
 "Dominican Republic",2.9
 "Iran",2.9
 "Romania",2.9
@@ -131,13 +131,13 @@
 "Iraq",2.1
 "Kenya",2.1
 "Pakistan",2.1
-"Angola",2.0
-"Congo. Democratic Republic",2.0
-"Cote d´Ivoire",2.0
-"Georgia",2.0
-"Indonesia",2.0
-"Tajikistan",2.0
-"Turkmenistan",2.0
+"Angola",2
+"Congo. Democratic Republic",2
+"Cote d´Ivoire",2
+"Georgia",2
+"Indonesia",2
+"Tajikistan",2
+"Turkmenistan",2
 "Azerbaijan",1.9
 "Paraguay",1.9
 "Chad",1.7

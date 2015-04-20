@@ -1,12 +1,12 @@
-"Country/Territory","CPI"
+"Jurisdiction","CPI"
 "Denmark",9.4
 "Finland",9.4
 "New Zealand",9.4
 "Singapore",9.3
 "Sweden",9.3
 "Iceland",9.2
-"Netherlands",9.0
-"Switzerland",9.0
+"Netherlands",9
+"Switzerland",9
 "Canada",8.7
 "Norway",8.7
 "Australia",8.6
@@ -20,7 +20,7 @@
 "France",7.3
 "USA",7.2
 "Belgium",7.1
-"Chile",7.0
+"Chile",7
 "Barbados",6.9
 "Saint Lucia",6.8
 "Spain",6.7
@@ -30,7 +30,7 @@
 "Portugal",6.5
 "Israel",6.1
 "Saint Vincent and the Grenadines",6.1
-"Qatar",6.0
+"Qatar",6
 "Malta",5.8
 "Macau",5.7
 "Taiwan",5.7
@@ -44,9 +44,9 @@
 "Malaysia",5.1
 "South Africa",5.1
 "South Korea",5.1
-"Bahrain",5.0
-"Bhutan",5.0
-"Costa Rica",5.0
+"Bahrain",5
+"Bhutan",5
+"Costa Rica",5
 "Cape Verde",4.9
 "Slovakia",4.9
 "Latvia",4.8
@@ -65,7 +65,7 @@
 "Bulgaria",4.1
 "Croatia",4.1
 "Turkey",4.1
-"El Salvador",4.0
+"El Salvador",4
 "Colombia",3.8
 "Ghana",3.7
 "Romania",3.7
@@ -97,12 +97,12 @@
 "Sri Lanka",3.2
 "Tanzania",3.2
 "Vanuatu",3.1
-"Algeria",3.0
-"Armenia",3.0
-"Belize",3.0
-"Dominican Republic",3.0
-"Lebanon",3.0
-"Mongolia",3.0
+"Algeria",3
+"Armenia",3
+"Belize",3
+"Dominican Republic",3
+"Lebanon",3
+"Mongolia",3
 "Albania",2.9
 "Argentina",2.9
 "Bolivia",2.9
@@ -160,12 +160,12 @@
 "Sierra Leone",2.1
 "Tajikistan",2.1
 "Zimbabwe",2.1
-"Bangladesh",2.0
-"Cambodia",2.0
-"Central African Republic",2.0
-"Papua New Guinea",2.0
-"Turkmenistan",2.0
-"Venezuela",2.0
+"Bangladesh",2
+"Cambodia",2
+"Central African Republic",2
+"Papua New Guinea",2
+"Turkmenistan",2
+"Venezuela",2
 "Congo Democratic Republic",1.9
 "Equatorial Guinea",1.9
 "Guinea",1.9
