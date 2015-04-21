@@ -11,7 +11,7 @@ Note: The scale of the CPI is 0-10 from 1998 to 2011, and 0-100 from 2012 onward
 
 More information about the index and methodology can be found [here](http://www.transparency.org/cpi2014/in_detail)
 
-### data/allCPI.csv
+### data/cpi.csv
 
 CPI for each country (rows) over the years 1998-2014 (columns)
 

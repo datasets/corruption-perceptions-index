@@ -168,7 +168,7 @@ for (i in 1:length(listFiles)) {
 #Set column names and save
 colnames(CPI)<-c("Jurisdiction",1998:2014)
 system("rm data/*")
-write.csv(CPI,file="data/allCPI.csv",quote=c(1),row.names=F)
+write.csv(CPI,file="data/cpi.csv",quote=c(1),row.names=F)
 
 
 
