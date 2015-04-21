@@ -6,8 +6,8 @@
   "license": "PDDL-1.0",
   "resources": [
     {
-      "name": "allcpi",
-      "path": "data/allCPI.csv",
+      "name": "cpi",
+      "path": "data/cpi.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 14369,
@@ -20,27 +20,27 @@
           },
           {
             "name": "1998",
-            "type": "string",
+            "type": "number",
             "description": ""
           },
           {
             "name": "1999",
-            "type": "string",
+            "type": "number",
             "description": ""
           },
           {
             "name": "2000",
-            "type": "string",
+            "type": "number",
             "description": ""
           },
           {
             "name": "2001",
-            "type": "string",
+            "type": "number",
             "description": ""
           },
           {
             "name": "2002",
-            "type": "string",
+            "type": "number",
             "description": ""
           },
           {
