@@ -4,366 +4,102 @@
   "homepage": "http://www.transparency.org/research/cpi/overview",
   "version": "0.1.0",
   "license": "PDDL-1.0",
-"description": [
-"Corruption Perceptions Index (CPI), as reported by Transparency International."
-],
-"sources": [{
-            "name": "Transparency International",
-            "web":  "http://www.transparency.org/research/cpi/overview"
-        }],
-
   "resources": [
     {
-      "name": "cpi1998",
-      "path": "data/CPI1998.csv",
+      "name": "allcpi",
+      "path": "allCPI.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 1279,
+      "bytes": 14369,
       "schema": {
         "fields": [
           {
-            "name": "Country/Territory",
+            "name": "Jurisdiction",
             "type": "string",
             "description": ""
           },
           {
-            "name": "CPI",
+            "name": "1998",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "1999",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "2000",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "2001",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "2002",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "2003",
             "type": "number",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi1999",
-      "path": "data/CPI1999.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 1491,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
           },
           {
-            "name": "CPI",
+            "name": "2004",
             "type": "number",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2000",
-      "path": "data/CPI2000.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 1355,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
           },
           {
-            "name": "CPI",
+            "name": "2005",
             "type": "number",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2001",
-      "path": "data/CPI2001.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 1381,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
           },
           {
-            "name": "CPI",
+            "name": "2006",
             "type": "number",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2002",
-      "path": "data/CPI2002.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 1539,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
           },
           {
-            "name": "CPI",
+            "name": "2007",
             "type": "number",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2003",
-      "path": "data/CPI2003.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 2027,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
           },
           {
-            "name": "CPI",
+            "name": "2008",
             "type": "number",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2004",
-      "path": "data/CPI2004.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 2240,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
           },
           {
-            "name": "CPI",
+            "name": "2009",
             "type": "number",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2005",
-      "path": "data/CPI2005.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 2422,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
           },
           {
-            "name": "CPI",
+            "name": "2010",
             "type": "number",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2006",
-      "path": "data/CPI2006.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 2478,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
           },
           {
-            "name": "CPI",
+            "name": "2011",
             "type": "number",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2007",
-      "path": "data/CPI2007.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 2784,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
           },
           {
-            "name": "CPI",
-            "type": "number",
-            "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2008",
-      "path": "data/CPI2008.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 2818,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
-          },
-          {
-            "name": "CPI",
-            "type": "number",
-            "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2009",
-      "path": "data/CPI2009.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 2817,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
-          },
-          {
-            "name": "CPI",
-            "type": "number",
-            "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2010",
-      "path": "data/CPI2010.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 2361,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
-          },
-          {
-            "name": "CPI",
-            "type": "number",
-            "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2011",
-      "path": "data/CPI2011.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 3378,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
-          },
-          {
-            "name": "CPI",
-            "type": "number",
-            "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2012",
-      "path": "data/CPI2012.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 2213,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
-          },
-          {
-            "name": "CPI",
+            "name": "2012",
             "type": "integer",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2013",
-      "path": "data/CPI2013.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 2228,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
           },
           {
-            "name": "CPI",
+            "name": "2013",
             "type": "integer",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "name": "cpi2014",
-      "path": "data/CPI2014.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 2203,
-      "schema": {
-        "fields": [
-          {
-            "name": "Country/Territory",
-            "type": "string",
-            "description": ""
           },
           {
-            "name": "CPI",
+            "name": "2014",
             "type": "integer",
             "description": ""
           }
@@ -371,5 +107,5 @@
       }
     }
   ],
-  "description": ""
+  "description": "Corruption Perceptions Index (CPI), as reported by Transparency International."
 }
