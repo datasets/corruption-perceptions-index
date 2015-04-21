@@ -18,9 +18,9 @@ CPI for each country (rows) over the years 1998-2014 (columns)
 ## Preparation
 
 This package includes an R script (scripts/script.R) to download files from the Transparency International website, to convert them in CSV format, and to merge
-the files in a common allCPI.csv file.
+the files in a common cpi.csv file.
 
-Some manual editing was finally made to merge countries whose naming is not consistent over the years (e.g., Trinidad & Tobago, Trinidad and Tobago).
+Note: The naming of some countries is not consistent over the years (e.g., Trinidad & Tobago, Trinidad and Tobago). The resulting file cpi.csv was manually edited to fix this naming issue. 
 
 ## License
 
