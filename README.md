@@ -11,13 +11,16 @@ Note: The scale of the CPI is 0-10 from 1998 to 2011, and 0-100 from 2012 onward
 
 More information about the index and methodology can be found [here](http://www.transparency.org/cpi2014/in_detail)
 
-### data/*.csv
+### data/allCPI.csv
 
-One CSV file per year, from 1998 to 2014.
+CPI for each country (rows) over the years 1998-2014 (columns)
 
 ## Preparation
 
-This package includes an R script (scripts/script.R) to download files from the Transparency International website, and to convert them in CSV format.
+This package includes an R script (scripts/script.R) to download files from the Transparency International website, to convert them in CSV format, and to merge
+the files in a common allCPI.csv file.
+
+Some manual editing was finally made to merge countries whose naming is not consistent over the years (e.g., Trinidad & Tobago, Trinidad and Tobago).
 
 ## License
 
