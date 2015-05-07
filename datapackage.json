@@ -8,9 +8,9 @@
     "url": "git://github.com/datasets/corruption-perceptions-index.git"
   },
   "sources": [{
-      "name": "Transparency International",
-      "web": "http://www.transparency.org/research/cpi/overview"
-    }],
+    "name": "Transparency International",
+    "web": "http://www.transparency.org/research/cpi/overview"
+  }],
   "keywords": [
     "corruption",
     "index",
