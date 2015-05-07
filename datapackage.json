@@ -1,7 +1,7 @@
 {
   "name": "corruption-perceptions-index",
   "title": "Corruption Perceptions Index (CPI)",
-  "version": "0.2.0",
+  "version": "1.0-beta.10",
   "description": "Corruption Perceptions Index (CPI), as reported by Transparency International.",
   "repository": {
     "type": "git",
@@ -126,7 +126,7 @@
     }
   ],
   "bugs": "https://github.com/datasets/corruption-perceptions-index/issues",
-  "homepage": "http://www.transparency.org/research/cpi/overview",
+  "homepage": "https://github.com/datasets/corruption-perceptions-index",
   "contributors":[{
     "name": "Yann-Aël Le Borgne",
     "email": "yleborgn@ulb.ac.be",
