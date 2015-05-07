@@ -1,7 +1,7 @@
 {
   "name": "corruption-perceptions-index",
   "title": "Corruption Perceptions Index (CPI)",
-  "version": "1.0-beta.10",
+  "version": "1.0",
   "description": "Corruption Perceptions Index (CPI), as reported by Transparency International.",
   "repository": {
     "type": "git",
