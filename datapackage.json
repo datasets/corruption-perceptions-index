@@ -1,6 +1,7 @@
 {
   "name": "corruption-perceptions-index",
   "title": "Corruption Perceptions Index (CPI)",
+  "description": "Corruption Perceptions Index (CPI), as reported by Transparency International.",
   "sources": [
     {
       "name": "Transparency International",
@@ -16,11 +17,6 @@
     "url": "http://www.opendefinition.org/licenses/odc-pddl"
   }],
   "contributors":[{
-    "name": "Yann-Aël Le Borgne",
-    "email": "yleborgn@ulb.ac.be",
-    "web": "http://ulb.ac.be/di/map/yleborgn"
-  }],
-  "maintainers": [{
     "name": "Yann-Aël Le Borgne",
     "email": "yleborgn@ulb.ac.be",
     "web": "http://ulb.ac.be/di/map/yleborgn"
@@ -127,6 +123,5 @@
         ]
       }
     }
-  ],
-  "description": "Corruption Perceptions Index (CPI), as reported by Transparency International."
+  ]
 }
