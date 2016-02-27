@@ -47,14 +47,22 @@ data_after_stats = by(data_after[!isna(data_after[:value]), :], :variable,
 p = plot(data_before[complete_cases(data_before), :], 
          x=:value, color=:variable, 
 			Geom.density, 
-			Guide.xlabel("Corruption Perceptions Index"), Guide.ylabel("Density"))
-draw(SVG("plots/cpi_density_before_2012.svg", 16cm, 9cm), p)
+			Guide.xlabel("Corruption Perceptions Index"), Guide.ylabel("Density"),
+         Theme(major_label_font_size=24px, key_title_font_size=24px,
+               minor_label_font_size=18px, key_label_font_size=18px,
+               line_width=2px,
+               grid_line_width=1px, grid_color=colorant"black"))
+draw(SVG("plots/cpi_density_before_2012.svg", 24cm, 12cm), p)
 
 p = plot(data_after[complete_cases(data_after), :], 
          x=:value, color=:variable, 
 			Geom.density,
-			Guide.xlabel("Corruption Perceptions Index"), Guide.ylabel("Density"))
-draw(SVG("plots/cpi_density_after_2012.svg", 16cm, 9cm), p)
+			Guide.xlabel("Corruption Perceptions Index"), Guide.ylabel("Density"),
+         Theme(major_label_font_size=24px, key_title_font_size=24px,
+               minor_label_font_size=18px, key_label_font_size=18px,
+               line_width=2px,
+               grid_line_width=1px, grid_color=colorant"black"))
+draw(SVG("plots/cpi_density_after_2012.svg", 24cm, 12cm), p)
 
 # plot average cpi +- std dev over time.
 p = plot(data_before_stats, x=:variable, y=:Mean, Geom.line, Geom.point, 
@@ -63,8 +71,12 @@ p = plot(data_before_stats, x=:variable, y=:Mean, Geom.line, Geom.point,
          Guide.xlabel("Year"), Guide.ylabel("CPI"), 
          Guide.title("Average CPI over Time"), Geom.ribbon,
          Coord.Cartesian(xmin=minimum(data_before_stats[:variable]), 
-                         xmax=maximum(data_before_stats[:variable])))
-draw(SVG("plots/cpi_stats_before_2012.svg", 16cm, 9cm), p)
+                         xmax=maximum(data_before_stats[:variable])),
+         Theme(major_label_font_size=24px, key_title_font_size=24px,
+               minor_label_font_size=18px, key_label_font_size=18px,
+               line_width=2px,
+               grid_line_width=1px, grid_color=colorant"black"))
+draw(SVG("plots/cpi_stats_before_2012.svg", 24cm, 12cm), p)
 
 p = plot(data_after_stats, x=:variable, y=:Mean, Geom.line, Geom.point, 
          ymin=data_after_stats[:Mean] - data_after_stats[:StdDev],
@@ -72,8 +84,12 @@ p = plot(data_after_stats, x=:variable, y=:Mean, Geom.line, Geom.point,
          Guide.xlabel("Year"), Guide.ylabel("CPI"), 
          Guide.title("Average CPI over Time"), Geom.ribbon,
          Coord.Cartesian(xmin=minimum(data_after_stats[:variable]), 
-                         xmax=maximum(data_after_stats[:variable])))
-draw(SVG("plots/cpi_stats_after_2012.svg", 16cm, 9cm), p)
+                         xmax=maximum(data_after_stats[:variable])),
+         Theme(major_label_font_size=24px, key_title_font_size=24px,
+               minor_label_font_size=18px, key_label_font_size=18px,
+               line_width=2px,
+               grid_line_width=1px, grid_color=colorant"black"))
+draw(SVG("plots/cpi_stats_after_2012.svg", 24cm, 12cm), p)
 
 
 #p = plot(data_m[complete_cases(data_m), :], 
