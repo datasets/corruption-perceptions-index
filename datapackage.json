@@ -1,0 +1,14 @@
+{
+  "name" : "corruption-perceptions-index",
+  "title" : "Corruption Perceptions Index",
+  "description" : "The corruption perceptions index (cpi) ranks countries/territories in terms of the degree to which corruption is perceived to exist among public officials and politicians.",
+  "sources" : [{
+    "name" : "Transparency International",
+    "web" : "http://www.transparency.org/research/cpi/overview"
+  }],
+  "resources" : [
+    {
+      "path" : "data/cpi.csv"
+    }
+  ]
+}
