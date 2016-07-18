@@ -51,7 +51,11 @@ p = plot(data_before[complete_cases(data_before), :],
          Theme(major_label_font_size=24px, key_title_font_size=24px,
                minor_label_font_size=18px, key_label_font_size=18px,
                line_width=2px,
-               grid_line_width=1px, grid_color=colorant"black"))
+               minor_label_color=colorant"white",
+               major_label_color=colorant"white",
+               key_label_color=colorant"white",
+               key_title_color=colorant"white",
+               grid_line_width=1px, grid_color=colorant"white"))
 draw(SVG("plots/cpi_density_before_2012.svg", 24cm, 12cm), p)
 
 p = plot(data_after[complete_cases(data_after), :], 
@@ -61,7 +65,11 @@ p = plot(data_after[complete_cases(data_after), :],
          Theme(major_label_font_size=24px, key_title_font_size=24px,
                minor_label_font_size=18px, key_label_font_size=18px,
                line_width=2px,
-               grid_line_width=1px, grid_color=colorant"black"))
+               minor_label_color=colorant"white",
+               major_label_color=colorant"white",
+               key_label_color=colorant"white",
+               key_title_color=colorant"white",
+               grid_line_width=1px, grid_color=colorant"white"))
 draw(SVG("plots/cpi_density_after_2012.svg", 24cm, 12cm), p)
 
 # plot average cpi +- std dev over time.
@@ -75,7 +83,11 @@ p = plot(data_before_stats, x=:variable, y=:Mean, Geom.line, Geom.point,
          Theme(major_label_font_size=24px, key_title_font_size=24px,
                minor_label_font_size=18px, key_label_font_size=18px,
                line_width=2px,
-               grid_line_width=1px, grid_color=colorant"black"))
+               minor_label_color=colorant"white",
+               major_label_color=colorant"white",
+               key_label_color=colorant"white",
+               key_title_color=colorant"white",
+               grid_line_width=1px, grid_color=colorant"white"))
 draw(SVG("plots/cpi_stats_before_2012.svg", 24cm, 12cm), p)
 
 p = plot(data_after_stats, x=:variable, y=:Mean, Geom.line, Geom.point, 
@@ -88,7 +100,11 @@ p = plot(data_after_stats, x=:variable, y=:Mean, Geom.line, Geom.point,
          Theme(major_label_font_size=24px, key_title_font_size=24px,
                minor_label_font_size=18px, key_label_font_size=18px,
                line_width=2px,
-               grid_line_width=1px, grid_color=colorant"black"))
+               minor_label_color=colorant"white",
+               major_label_color=colorant"white",
+               key_label_color=colorant"white",
+               key_title_color=colorant"white",
+               grid_line_width=1px, grid_color=colorant"white"))
 draw(SVG("plots/cpi_stats_after_2012.svg", 24cm, 12cm), p)
 
 
