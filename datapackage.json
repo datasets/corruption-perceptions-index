@@ -1,0 +1,147 @@
+{
+  "name": "corruption-perceptions-index",
+  "resources": [
+    {
+      "path": "data/cpi.csv",
+      "name": "data",
+      "schema": {
+        "fields": [
+          {
+            "description": "",
+            "format": "default",
+            "type": "string",
+            "name": "Jurisdiction",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "1998",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "1999",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2000",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2001",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2002",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2003",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2004",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2005",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2006",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2007",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2008",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2009",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2010",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2011",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2012",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2013",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2014",
+            "title": ""
+          },
+          {
+            "description": "",
+            "format": "default",
+            "type": "number",
+            "name": "2015",
+            "title": ""
+          }
+        ]
+      }
+    }
+  ],
+  "title": "Corruption Perceptions Index"
+}
