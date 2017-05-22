@@ -4,140 +4,103 @@
     {
       "path": "data/cpi.csv",
       "name": "data",
+      "format": "csv",
       "schema": {
         "fields": [
           {
-            "description": "",
             "format": "default",
             "type": "string",
-            "name": "Jurisdiction",
-            "title": ""
+            "name": "Jurisdiction"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "1998",
-            "title": ""
+            "name": "1998"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "1999",
-            "title": ""
+            "name": "1999"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2000",
-            "title": ""
+            "name": "2000"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2001",
-            "title": ""
+            "name": "2001"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2002",
-            "title": ""
+            "name": "2002"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2003",
-            "title": ""
+            "name": "2003"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2004",
-            "title": ""
+            "name": "2004"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2005",
-            "title": ""
+            "name": "2005"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2006",
-            "title": ""
+            "name": "2006"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2007",
-            "title": ""
+            "name": "2007"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2008",
-            "title": ""
+            "name": "2008"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2009",
-            "title": ""
+            "name": "2009"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2010",
-            "title": ""
+            "name": "2010"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2011",
-            "title": ""
+            "name": "2011"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2012",
-            "title": ""
+            "name": "2012"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2013",
-            "title": ""
+            "name": "2013"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2014",
-            "title": ""
+            "name": "2014"
           },
           {
-            "description": "",
             "format": "default",
             "type": "number",
-            "name": "2015",
-            "title": ""
+            "name": "2015"
           }
         ]
       }
