@@ -211,7 +211,7 @@ for (i in 1:length(listFiles)) {
 	tt<-which(countries.i==7)
 	if (length(tt)>0) print(i)
 		match.countries<-match(countries.i,CPI[,1])
-	CPI<-cbind(CPI, rep(NA, nrow(CPI)))
+	CPI<-cbind(CPI, rep(-, nrow(CPI)))
 	CPI[match.countries,i+1]<-round(listFiles[[i]][,2], digits=2)
 }
 
