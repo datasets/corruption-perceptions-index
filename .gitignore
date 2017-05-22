@@ -6,8 +6,9 @@
 *~
 *.swp
 
-# ignore raw data files
+# ignore raw data or archive directory
 raw_data/
+archive/
 
 # ignore plots
 plots/
