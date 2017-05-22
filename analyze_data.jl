@@ -30,11 +30,12 @@ data_after = data_m[data_m[:variable] .> 2011, :]
 data_before = data_m[data_m[:variable] .<= 2011, :]
 
 # average cpi over time.
-data_before_stats = by(data_before[!isna(data_before[:value]), :], :variable, 
+
+data_before_stats = by(data_before[!all.equal(data_before[:value], '-'), :], :variable, 
                        df -> DataFrame(StdDev=std(df[:value]), 
                                        Mean=mean(df[:value])))
 
-data_after_stats = by(data_after[!isna(data_after[:value]), :], :variable, 
+data_after_stats = by(data_after[!all.equal(data_after[:value], '-'), :], :variable, 
                       df -> DataFrame(StdDev=std(df[:value]), 
                                       Mean=mean(df[:value])))
 
