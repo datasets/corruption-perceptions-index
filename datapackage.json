@@ -14,92 +14,92 @@
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "1998"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "1999"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2000"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2001"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2002"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2003"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2004"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2005"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2006"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2007"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2008"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2009"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2010"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2011"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2012"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2013"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2014"
           },
           {
             "format": "default",
-            "type": "number",
+            "type": "string",
             "name": "2015"
           }
         ]
