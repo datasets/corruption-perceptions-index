@@ -1,0 +1,151 @@
+{
+  "bytes": 27138,
+  "count_of_rows": 252,
+  "hash": "e0ba98a1b16a5807264eb3588516642d",
+  "profile": "data-package",
+  "resources": [
+    {
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "name": "cpi",
+      "path": "cpi.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "1995",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "1996",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "1997",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "1998",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "1999",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2000",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2001",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2002",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2003",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2004",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2005",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2006",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2007",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2008",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2009",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2010",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2011",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2012",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2013",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2014",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2015",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2016",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "2017",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}
