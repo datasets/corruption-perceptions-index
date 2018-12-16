@@ -1,7 +1,3 @@
-# proprietary formats are not appreciated.
-*.xlsx
-*.xlsx#
-
 # backup files from editors
 *~
 *.swp
