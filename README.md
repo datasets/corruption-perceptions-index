@@ -1,3 +1,5 @@
+<a href="https://datahub.io/core/corruption-perceptions-index"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25)" alt="badge" /></a>
+
 Corruption perceptions index (cpi) ranks countries/territories in terms of the degree to which corruption is perceived to exist among public officials and politicians. 
 
 ## Data 
