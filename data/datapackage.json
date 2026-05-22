@@ -1,7 +1,7 @@
 {
   "name": "corruption-perceptions-index",
   "title": "Corruption Perceptions Index",
-  "description": "The Corruption Perceptions Index (CPI) ranks countries and territories by their perceived levels of public-sector corruption, as assessed by experts and business people. Published annually by Transparency International since 1995. Scores from 1995–2011 are on a 0–10 scale; scores from 2012 onwards are normalised to the same 0–10 scale. A score of 0.0 indicates that a country was not included in the CPI for that year.",
+  "description": "The Corruption Perceptions Index (CPI) ranks countries and territories by their perceived levels of public-sector corruption among politicians and public officials. Published annually by Transparency International since 1995, it draws on different assessments and business opinion surveys carried out by independent and reputable institutions. Scores from 1995–2011 are on a 0–10 scale; scores from 2012 onwards are normalised to the same 0–10 scale. A score of 0.0 indicates that a country was not included in the CPI for that year.",
   "licenses": [
     {
       "name": "CC-BY-ND-4.0",

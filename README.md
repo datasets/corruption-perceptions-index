@@ -2,7 +2,7 @@
 
 # Corruption Perceptions Index
 
-The Corruption Perceptions Index (CPI) ranks countries and territories by their perceived levels of public-sector corruption, as assessed by experts and business people. Published annually by Transparency International since 1995, the index draws on multiple independent assessments covering bribery of public officials, kickbacks in procurement, embezzlement of public funds, and the strength of anti-corruption efforts. This dataset covers **1995–2017**.
+The Corruption Perceptions Index (CPI) ranks countries and territories by their perceived levels of public-sector corruption, as assessed by experts and business people. Published annually by Transparency International since 1995, the index draws on different assessments and business opinion surveys carried out by independent and reputable institutions. This dataset covers **1995–2017**.
 
 ## Data
 
