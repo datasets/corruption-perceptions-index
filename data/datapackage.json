@@ -10,7 +10,7 @@
         "delimiter": ",",
         "doubleQuote": true,
         "header": true,
-        "lineTerminator": "\r\n",
+        "lineTerminator": "\n",
         "quoteChar": "\"",
         "skipInitialSpace": false
       },
