@@ -1,10 +1,30 @@
 {
-  "bytes": 27138,
-  "count_of_rows": 252,
-  "hash": "e0ba98a1b16a5807264eb3588516642d",
+  "name": "corruption-perceptions-index",
+  "title": "Corruption Perceptions Index",
+  "description": "The Corruption Perceptions Index (CPI) ranks countries and territories by their perceived levels of public-sector corruption among politicians and public officials. Published annually by Transparency International since 1995, it draws on different assessments and business opinion surveys carried out by independent and reputable institutions. Scores from 1995–2011 are on a 0–10 scale; scores from 2012 onwards are normalised to the same 0–10 scale. A score of 0.0 indicates that a country was not included in the CPI for that year.",
+  "licenses": [
+    {
+      "name": "CC-BY-ND-4.0",
+      "path": "https://creativecommons.org/licenses/by-nd/4.0/",
+      "title": "Creative Commons Attribution-NoDerivatives 4.0"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Transparency International — Corruption Perceptions Index",
+      "path": "https://www.transparency.org/en/cpi",
+      "title": "Transparency International CPI"
+    }
+  ],
   "profile": "data-package",
   "resources": [
     {
+      "name": "cpi",
+      "path": "cpi.csv",
+      "description": "CPI scores for every country/territory included in any edition from 1995 to 2017. Each row is one country. Year columns contain the CPI score for that year, or 0.0 if the country was not included in that edition.",
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8",
+      "format": "csv",
       "dialect": {
         "caseSensitiveHeader": false,
         "delimiter": ",",
@@ -14,132 +34,127 @@
         "quoteChar": "\"",
         "skipInitialSpace": false
       },
-      "encoding": "utf-8",
-      "format": "csv",
-      "name": "cpi",
-      "path": "cpi.csv",
-      "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "format": "default",
             "name": "country",
-            "type": "string"
+            "type": "string",
+            "description": "Country or territory name as used in the original Transparency International source for that year. Note: the same country may appear under slightly different spellings across years (e.g. multiple variants of Côte d'Ivoire)."
           },
           {
-            "format": "default",
             "name": "1995",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 1995 on a 0–10 scale (0 = highly corrupt, 10 = very clean). 0.0 means the country was not included in the 1995 CPI."
           },
           {
-            "format": "default",
             "name": "1996",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 1996 on a 0–10 scale. 0.0 means the country was not included in the 1996 CPI."
           },
           {
-            "format": "default",
             "name": "1997",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 1997 on a 0–10 scale. 0.0 means the country was not included in the 1997 CPI."
           },
           {
-            "format": "default",
             "name": "1998",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 1998 on a 0–10 scale. 0.0 means the country was not included in the 1998 CPI."
           },
           {
-            "format": "default",
             "name": "1999",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 1999 on a 0–10 scale. 0.0 means the country was not included in the 1999 CPI."
           },
           {
-            "format": "default",
             "name": "2000",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2000 on a 0–10 scale. 0.0 means the country was not included in the 2000 CPI."
           },
           {
-            "format": "default",
             "name": "2001",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2001 on a 0–10 scale. 0.0 means the country was not included in the 2001 CPI."
           },
           {
-            "format": "default",
             "name": "2002",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2002 on a 0–10 scale. 0.0 means the country was not included in the 2002 CPI."
           },
           {
-            "format": "default",
             "name": "2003",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2003 on a 0–10 scale. 0.0 means the country was not included in the 2003 CPI."
           },
           {
-            "format": "default",
             "name": "2004",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2004 on a 0–10 scale. 0.0 means the country was not included in the 2004 CPI."
           },
           {
-            "format": "default",
             "name": "2005",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2005 on a 0–10 scale. 0.0 means the country was not included in the 2005 CPI."
           },
           {
-            "format": "default",
             "name": "2006",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2006 on a 0–10 scale. 0.0 means the country was not included in the 2006 CPI."
           },
           {
-            "format": "default",
             "name": "2007",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2007 on a 0–10 scale. 0.0 means the country was not included in the 2007 CPI."
           },
           {
-            "format": "default",
             "name": "2008",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2008 on a 0–10 scale. 0.0 means the country was not included in the 2008 CPI."
           },
           {
-            "format": "default",
             "name": "2009",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2009 on a 0–10 scale. 0.0 means the country was not included in the 2009 CPI."
           },
           {
-            "format": "default",
             "name": "2010",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2010 on a 0–10 scale. 0.0 means the country was not included in the 2010 CPI."
           },
           {
-            "format": "default",
             "name": "2011",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2011 on a 0–10 scale. 0.0 means the country was not included in the 2011 CPI."
           },
           {
-            "format": "default",
             "name": "2012",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2012, normalised to 0–10 scale (TI publishes on 0–100; divided by 10 here). 0.0 means the country was not included in the 2012 CPI."
           },
           {
-            "format": "default",
             "name": "2013",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2013, normalised to 0–10 scale. 0.0 means the country was not included in the 2013 CPI."
           },
           {
-            "format": "default",
             "name": "2014",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2014, normalised to 0–10 scale. 0.0 means the country was not included in the 2014 CPI."
           },
           {
-            "format": "default",
             "name": "2015",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2015, normalised to 0–10 scale. 0.0 means the country was not included in the 2015 CPI."
           },
           {
-            "format": "default",
             "name": "2016",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2016, normalised to 0–10 scale. 0.0 means the country was not included in the 2016 CPI."
           },
           {
-            "format": "default",
             "name": "2017",
-            "type": "string"
+            "type": "number",
+            "description": "CPI score for 2017, normalised to 0–10 scale. 0.0 means the country was not included in the 2017 CPI."
           }
         ],
         "missingValues": [
