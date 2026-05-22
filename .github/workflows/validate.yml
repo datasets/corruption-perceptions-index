@@ -25,4 +25,4 @@ jobs:
         run: pip install frictionless
 
       - name: Validate datapackage
-        run: frictionless validate data/datapackage.json
+        run: frictionless validate datapackage.json

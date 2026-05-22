@@ -20,7 +20,7 @@
   "resources": [
     {
       "name": "cpi",
-      "path": "cpi.csv",
+      "path": "data/cpi.csv",
       "description": "CPI scores for every country/territory included in any edition from 1995 to 2017. Each row is one country. Year columns contain the CPI score for that year, or 0.0 if the country was not included in that edition.",
       "profile": "tabular-data-resource",
       "encoding": "utf-8",
